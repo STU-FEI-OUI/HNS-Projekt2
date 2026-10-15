@@ -1,5 +1,5 @@
-# HNS-Projekt1
-Repozitár ku Projektu 1 na predmete HNS, tu sa nachádzajú odkazy na datsety k projektu a literatúru
+# HNS-Projekt2
+Repozitár ku Projektu 2 na predmete HNS, tu sa nachádzajú odkazy na datsety k projektu a literatúru
 
 Zadanie: [Projekt 2](https://github.com/STU-FEI-OUI/HNS-test/blob/main/Zadania/HNS_Projekt2.pdf)
 
