@@ -5,69 +5,70 @@ Zadanie: [Projekt 2](https://github.com/STU-FEI-OUI/HNS-test/blob/main/Zadania/H
 
 ## Datasety:
 
-### Dataset Vozidlá - Vehicles Dataset
-Klasifikácia obrazov, 6 skupín (auto, autobus, bicykel, motorka, dodávka, pickup)
-( [Dataset_Vozidla](https://drive.google.com/drive/folders/1ETYpjMKG3aPFdnf-RIiWp82HwKq1R4nX?usp=drive_link) )
-Doplniť obrazy vozidiel je možné cez datasety MS COCO, ImageNet dataset, alebo Kaggle [Vehicles](https://www.kaggle.com/datasets/iamsandeepprasad/vehicle-data-set)
+### Dataset - dobre nasadené rúško
+Rozpoznávanie dobre nasadeného rúška – 2 skupiny (dobre nasadené, zle nasadené) 
+alebo 3 skupiny (bez rúška, zle nasadené, dobre nasadené)
+( [Dataset_Ruska](https://github.com/cabani/MaskedFace-Net) )
 
-### Dataset Dopravné Značky - Traffic Sings Dataset
-Klasifikácia obrazov, 12 skupín (vybrané typy značiek)
-( [Dataset_Značky](https://drive.google.com/drive/folders/1JShYe8vmZv287GCPLxERNt2PP3C3hwZv?usp=drive_link) )
+### Dataset - Hlasové povely
+Rozpoznávanie hlasových povelov zo zvukových nahrávok – 8 skupín povelov (go, left, right, stop, up, down, on, off)
+( [Dataset_HlasovePovely](https://www.kaggle.com/datasets/mok0na/speech-commands-v002) )
 
-### Dataset Vnútorné prostredie - InDoor Dataset
-Klasifikácia obrazov, 9 skupín (vnútorné priestory reštaurácia, obývačka, spálňa, kuchyňa, ...)
-( [Dataset_Indoor](https://drive.google.com/drive/folders/1nWlwbR2opcynCSwm_WN97URv_WC-3MVy?usp=drive_link) )
+### Dataset - Stavy tváre
+Rozpoznávanie natočenia tváre z RGB obrazu – 4 skupiny (LeftProfile, LightOn, RightProfile, OcclusionPaper)
+Rozpoznávanie gest tváre z RGB obrazu – 5 skupín (Neutral, OcclusionEyes, OcclusionMouth, OpenMouth, Smile)
+( [Dataset_Tvare](https://drive.google.com/drive/folders/1YwOCplpXusQXr7d9wsS7kTb9TGJAt5fW?usp=drive_link) )
 
-### Dataset Ochorenia Paradajok - Plant Village 2
-Klasifikácia obrazov, 9 skupín ochorenia listov paradajok (zdravé, 8 skupín ochorenia)
-( [Dataset_PlantVillage2](https://drive.google.com/drive/folders/1sKmmi0L4KeSf5xgxXhldCrks4oF897DX?usp=drive_link) )
-Tiež je k dispozícii na Kaggle [PlantDiseases](https://www.kaggle.com/datasets/emmarex/plantdisease)
+### Dataset - Gestá ASL 1
+Rozpoznávanie gest ruky z RGB obrazu a hĺbkovej mapy – 10 skupín (jednotlivé gestá).
+( [Dataset_Gesta_ASL1](https://drive.google.com/drive/folders/1mpRo653YGYd4iuB-1t5sxog7rBnpaNob?usp=drive_link) )
 
-### Dataset Počasie - Weather Dataset
-Klasifikácia obrazov, 11 skupín počasia (dew, fogsmog, frost, glaze, hail, lightning, rain, rainbow, rime, sandstorm, snow)
-( [Dataset_Weather](https://www.kaggle.com/code/adrianograms/weather-image-classification/input) )
-Doplniť obrazy počasia je možné cez datasety na Kaggle [Weather1](https://drive.google.com/drive/folders/1XMSb5IRHJP8PhjMwVJNal7SmHFOduRij?usp=drive_link)  , 
-[Weather2](https://www.kaggle.com/code/ramazanturann/weather-image-classification/input)
+### Dataset - Gestá ASL 2
+Rozpoznávanie gest ruky z RGB obrazu a hĺbkovej mapy – 10 skupín (jednotlivé gestá).
+( [Dataset_Gesta_ASL2](https://drive.google.com/drive/folders/1UDefZEX1hMszVGkDu04sFOX3yu9altu9?usp=drive_link) )
 
-### Dataset Architektúry - Architecture Dataset
-Klasifikácia obrazov, 25 skupín typov architektúr budov
-( [Dataset_Architecture](https://drive.google.com/drive/folders/13hPJY3ZBmGQp1_AwKQUTMrs3ei2GhFvs?usp=drive_link) )
+### Dataset - Defekty 1 (Jamy na ceste, Podložky)
+Rozpoznávanie defektov (jám) na ceste - 2 skupiny (Ok, defect)
+( [Dataset_Jamy](https://drive.google.com/drive/folders/1d3atNCQK9POrsjQJiVZ6M8HoPEfCaTn6?usp=drive_link) )
 
-### Dataset Kvety 1 - Flowers Dataset
-Klasifikácia obrazov, 5 druhov kvetov (daisy, dandelion, rose, sunflower, tulip)
-( [Dataset_Flowers1](https://www.kaggle.com/code/nikhilmishra21/flowers-notebook-cnn/input) )
+Kontrola kvality podložiek – 5 skupín (Ok, 4 typy defektov)
+( [Dataset_Podlozky](https://drive.google.com/drive/folders/1PVE357M-8uburXtl5kFwjo_nowSup1Xx?usp=drive_link) )
 
-### Dataset Kvety 2 - Flowers Dataset - Oxford 102 flowers
-Klasifikácia obrazov, 102 druhov kvetov 
-( [Dataset_Flowers2](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/) )
+### Dataset - Defekty 2 (Zvary, Casting)
+Kontrola kvality zvarov kamery – 4 skupiny (Ok, 2025-kráterový lunker, 510-diera, 500-poškodený povrch zvaru)
+( [Dataset_Zvary](https://drive.google.com/drive/folders/1SUivIX-uDGs74XNegNQp95wvQ78C5DIe?usp=drive_link) )
 
-### Dataset Jedlá - Foods Dataset
-Klasifikácia obrazov jedál, 101 skupín obrazov jedál
-( [Dataset_Foods](https://www.kaggle.com/datasets/kmader/food41) )
+Kontrola kvality obrobkov (Casting)- 2 skupiny (Ok, defect)
+( [Dataset_Casting](https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of-casting-product/data) )
 
-### Dataset Odpadky 1 - Garbage 1 Dataset
-Klasifikácia obrazov odpadkov, 10 skupín obrazov odpadkov
-( [Dataset_Garbage1](https://www.kaggle.com/datasets/sumn2u/garbage-classification-v2) )
-
-### Dataset Odpadky 2 - Garbage 2 Dataset
-Klasifikácia obrazov odpadkov, 6 skupín obrazov odpadkov
-( [Dataset_Garbage2](https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification/data) )
-
-### Dataset Odpadky 3 - Garbage 3 Dataset
-Klasifikácia obrazov odpadkov, 12 skupín obrazov odpadkov
-( [Dataset_Garbage3](https://www.kaggle.com/datasets/mostafaabla/garbage-classification) )
-
-### Dataset na detekciu požiaru lesov - Forest Fire Smoke Dataset
-Rozpoznávanie požiaru lesov, 3 skupiny Smoke, Fire, Not_Fire
-( [Dataset_Smoke_Fire_NotFire](https://www.kaggle.com/datasets/amerzishminha/forest-fire-smoke-and-non-fire-image-dataset) )
-
-### Dataset PC komponentov – PC components Dataset
-Rozpoznávanie PC komponentov, 14 skupín (CPU, GPU, káble, RAM, HDD, monitor, klávesnica, ...)
-( [Dataset_PCcomponents](https://www.kaggle.com/datasets/asaniczka/pc-parts-images-dataset-classification) )
-
-### Dataset povrchových defektov oceľového pásu  – NEU Surface defect Dataset
+### Dataset - Defekty 3 (NEU-DET, Pneumatiky)
+Dataset povrchových defektov oceľového pásu  – NEU Surface defect Dataset
 Klasifikácia defektov oceľového plechu, 6 skupín (valcované okuje (RS), škvrny (Pa), praskliny (Cr), jamkovitý povrch (PS), inklúzie (In) a škrabance (Sc))
-( [Dataset_Defects](https://www.kaggle.com/datasets/kaustubhdikshit/neu-surface-defect-database/data) )
+( [Dataset_NEU_DET](https://www.kaggle.com/datasets/rdsunday/neu-urface-defect-database) )
+
+Kontrola kvality pneumatík - 2 skupiny (Ok, defect)
+( [Dataset_Pneumatiky](https://drive.google.com/drive/folders/1EO9dj8x2OM21ZSBs8xlqTLSzH-FDLOBB?usp=drive_link) )
+
+### Dataset - Ludské činnosti - video sekvencie
+Rozpoznávanie ľudských činností z videa
+( [Dataset_HMDB51]() )
+
+### Dataset – EKG anomálií
+Rozpoznávanie anomálií EKG srdca, 2 skupiny (CPU, GPU, káble, RAM, HDD, monitor, klávesnica, ...)
+( [Dataset_ECG5000](https://www.kaggle.com/datasets/devavratatripathy/ecg-dataset/data) )
+
+### Dataset – Diabetická Retinopatia - Fundus obrazy
+Rozpoznávanie Diabetickej Retinopatie (DR) na fundus snímkach očného pozadia. – 5 skupín 
+(No DR – bez DR, Mild – mierna NDR, Moderate – stredne závažná NDR, Severe -  závažná NDR, Proliferative DR – Proliferatívna retinopatia)
+( [Dataset_Diabetic_Rethinopathy](https://www.kaggle.com/datasets/sampathsaivamsimatha/diabetic-rethinopathy-dataset-new) )
+
+### Dataset – KVASIR a  Aizheimer
+Rozpoznávanie nálezov na hrubom čreve. (8 skupín nálezov) Dataset KVASIR
+( [Dataset_KVASIR](https://www.kaggle.com/datasets/meetnagadia/kvasir-dataset) )
+
+Rozpoznávanie ochorenie Aizheimer na MRI obrazoch – 2 skupiny (normal, positive)
+( [Dataset_Aizheimer](https://drive.google.com/drive/folders/1ARzPYGbM_oUccYpTV9js5bKHGwuCYBTg?usp=drive_link) )
+
 
 ## Návody:
 - Pokyny k príprave prezentácie ( [Pokyny prezentácia](Datasets/Pokyny_projekt1.pdf) )
