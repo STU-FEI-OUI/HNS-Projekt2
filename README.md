@@ -3,7 +3,8 @@ Repozitár ku Projektu 2 na predmete HNS, tu sa nachádzajú odkazy na datsety k
 
 Zadanie: [Projekt 2](https://github.com/STU-FEI-OUI/HNS-test/blob/main/Zadania/HNS_Projekt2.pdf)
 
-## Datasety:
+## HMI Datasety:
+[Opis datasetov a modelov pre HMI aplikacie](https://github.com/STU-FEI-OUI/KEGA-Pracovisko2)
 
 ### Dataset - dobre nasadené rúško
 Rozpoznávanie dobre nasadeného rúška – 2 skupiny (dobre nasadené, zle nasadené) 
@@ -26,6 +27,9 @@ Rozpoznávanie gest ruky z RGB obrazu a hĺbkovej mapy – 10 skupín (jednotliv
 ### Dataset - Gestá ASL 2
 Rozpoznávanie gest ruky z RGB obrazu a hĺbkovej mapy – 10 skupín (jednotlivé gestá).
 ( [Dataset_Gesta_ASL2](https://drive.google.com/drive/folders/1UDefZEX1hMszVGkDu04sFOX3yu9altu9?usp=drive_link) )
+
+## Datasety - Defekty:
+[Opis datasetov a modelov pre klasifikáciu defektov](https://github.com/STU-FEI-OUI/KEGA-Pracovisko1)
 
 ### Dataset - Defekty 1 (Jamy na ceste, Podložky)
 Rozpoznávanie defektov (jám) na ceste - 2 skupiny (Ok, defect)
@@ -73,31 +77,7 @@ Rozpoznávanie ochorenie Aizheimer na MRI obrazoch – 2 skupiny (normal, positi
 ## Návody:
 - Pokyny k príprave prezentácie ( [Pokyny prezentácia](Datasets/Pokyny_projekt1.pdf) )
 
-- Návod ako postupovať pri modeloch s attention vrstvou ( [Návod pre realizáciu transformerov](Datasets/HNS_navod_ukazky_kodu_projekt1.pdf) )
-
-- Príklad fungovania attention vrstvy, pozornosť v transformeroch, príklad generovania textu: [01_attention_a_transformery.ipynb](Datasets/01_attention_a_transformery.ipynb)
-
-- Príklady modelov s attention vrstvou : [02_vizualne_transformery.ipynb](Datasets/02_vizualne_transformery.ipynb)
-
-- Porovnanie modelov CNN a ViT na redukovanom Food101 Datasete: [03_porovnanie_modelov.ipynb](Datasets/03_porovnanie_modelov.ipynb)
-
-- Výsledky porovnania modelov CNN a ViT na redukovanom Food101 Datasete ( [Porovnanie_modelov_PDF_výstup](Datasets/HNS_Projekt1_porovnanie_modelov.pdf) )
 
 
 ## Literatúra:
-- Fungovanie Attention mechanizmu v Transformeroch ( [Abnar and Zuldema, Attention flow](https://arxiv.org/abs/2005.00928) )
-
-- Attention mechanizmus ( [Vaswani at all, Attention is all you need](https://arxiv.org/abs/1706.03762) )
-
-- Attention vrstva - CBAM ( [Woo at all, CBAM: Convolutional Block Attention Module](https://arxiv.org/abs/1807.06521) )
-
-- ConvNeXt - optimalizovaný CNN model ( [Zhuang Liu at all, A ConvNet for the 2020s](https://arxiv.org/abs/2201.03545) )
-
-- ViT - transformery na rozpoznávanie obrazov ( [Alexey Dosovitskiy at all, Transformers for Image Recognition](https://arxiv.org/abs/2010.11929) )
-
-- DeiT - vizuálny transformer ( [Hugo Touvron at all, Training data-efficient image transformers](https://arxiv.org/abs/2012.12877) )
-
-- Swin - vizuálny transformer ( [Ze Liu at all, Swin Transformer](https://arxiv.org/abs/2103.14030) )
-
-- CNN a ViT - hybridný model CoAtNet ( [Zihang Dai at all, CoAtNet: Marrying Convolution and Attention](https://arxiv.org/abs/2106.04803) )
-
+- 
