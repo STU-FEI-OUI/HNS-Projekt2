@@ -57,9 +57,13 @@ Kontrola kvality pneumatík - 2 skupiny (Ok, defect)
 Rozpoznávanie ľudských činností z videa
 ( [Dataset_HMDB51]() )
 
+[Opis datasetov a modelov pre rozpoznávanie ludských činností](https://github.com/STU-FEI-OUI/KEGA-Pracovisko4)
+
 ### Dataset – EKG anomálií
 Rozpoznávanie anomálií EKG srdca, 2 skupiny (CPU, GPU, káble, RAM, HDD, monitor, klávesnica, ...)
 ( [Dataset_ECG5000](https://www.kaggle.com/datasets/devavratatripathy/ecg-dataset/data) )
+
+[Opis datasetov a modelov pre detekciu anomálií](https://github.com/STU-FEI-OUI/KEGA-Pracovisko5)
 
 ### Dataset – Diabetická Retinopatia - Fundus obrazy
 Rozpoznávanie Diabetickej Retinopatie (DR) na fundus snímkach očného pozadia. – 5 skupín 
